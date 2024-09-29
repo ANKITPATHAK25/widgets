@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Widget from './Widget';  // Import the Widget component
+
+import Widget from './Widgets';  // Import the Widget component
 
 function App() {
   return (
