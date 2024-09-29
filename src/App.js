@@ -1,11 +1,11 @@
 import React from 'react';
-
-import Widget from './Widgets';  // Import the Widget component
+import Widgets from './Widgets';  // Import the Widgets component
+import './App.css';  // Optional if you have global styles
 
 function App() {
   return (
     <div className="App">
-      <Widget />  {/* Use the Widget component */}
+      <Widgets />  {/* Render the Widgets component */}
     </div>
   );
 }
